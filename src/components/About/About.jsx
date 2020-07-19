@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="Краткая история" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -39,14 +39,11 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Мы заключили договор в августе 2018 года. Нам обещали сдать в ноябре 2018 года. Рассчитались сразу полностью. На сегодняшнее число дом до сих пор не сдан. Я нахожусь в черном списке у Рафаэля, который рассказывает как прекрасно идут дела у компании, также в черном списке у юриста. Соответственно остается только подать в суд. Неустойка, прописанная в договоре, тоже до сих пор не выплачивается. Сайт создал, так как выяснилось, что они всех так кидают, после того как пообщался с соседями, поэтому решил предостеречь остальных.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                    'Если желаете пообщаться со мной, пишите, с удовольствием отвечу.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -56,7 +53,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      Задать вопрос
                     </a>
                   </span>
                 )}
